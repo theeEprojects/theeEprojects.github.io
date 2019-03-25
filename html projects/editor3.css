@@ -1,0 +1,129 @@
+﻿#h1{
+	color:gray;
+	background:linear-gradient(45deg,white,black);
+	width: 50%;
+	background-size:100%;
+	transition-property:width;
+	trasition-duration:0.5s;
+}
+#h1:hover{
+	width:1000px;
+	background-color:black;
+	color:black
+	text-shadow:1px 1px 2px gray, 0 0 25px gray, 0 0 5px white;
+}
+#button{
+	padding:10px;
+	color:white;
+	background-color:black; 
+	transition-duration: 0.1s;
+}
+#button:hover{
+	transform: rotateX(360deg) scale(4);
+}
+.web {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+.web a {
+  text-decoration: none;
+  display: block;
+}
+.web a :hover{
+	background-color:gray;
+}
+#p1{
+	text-shadow: 1px 1px 2px white, 0 0 25px gray, 0 0 5px black;
+}
+
+
+.button2:hover .web {
+	display: block;
+}
+#lightbulb{
+	left: 63px;
+	width: 43px;
+	background: url(smiley.gif) 100px 100px ;
+
+}
+#blockquote{
+	text-shadow: 1px 1px 2px white, 0 0 25px gray, 0 0 5px black;
+}
+#div2{
+	width: 100px;
+	height: 20px;
+	background-color: black;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-name: ani1;
+	animation-duration: 10s;
+}
+#div2:hover{
+	color: white;
+	color: black;
+}
+@-webkit-keyframes ani1{
+	0%   {background-color:black; left:100px;}
+	10%  {background-color:gray; left: 200px; }
+	20%  {background-color:silver; left: 400px;}
+	50% {background-color: white; left: 800px;}
+	0%   {background-color:black; right:100px;}
+	10%  {background-color:gray; right: 200px; }
+	20%  {background-color:silver; right: 400px;}
+	50% {background-color: white; right: 800px;}
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  padding: 14px 20px;
+  margin: 8px 0;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#div3{
+	background-color:black;
+	overflow:hidden;
+}
+#div3 a{
+	float:left;
+	padding: 14px 16px;
+	display: block;
+	test-decoration: none;
+	color:white;
+	test-align:center
+}
+#div3 a:hover{
+	background-color: gray;
+	color: black;
+}
+#button2{
+	background-color: black;
+	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	margin: 4px 2px;
+}
+
+}
+

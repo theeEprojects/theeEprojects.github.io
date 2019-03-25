@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.web {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+
+.web a {
+  text-decoration: none;
+  display: block;
+}
+.web a:hover{
+	background-color:green;
+}
+#p1{
+	text-shadow: 1px 1px 2px white, 0 0 25px gray, 0 0 5px black;
+}
+.button2:hover .web {
+	display: block;
+}
+.button1{
+	border:none;
+	color:white;
+	background-color:black;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="file:///C:/Users/kids/Documents/html%20projects/Website1.html">Home</a></li>
+  <li><a class="active" href="file:///C:/Users/kids/Documents/html%20projects/Sciencepart.html#home">Energy</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <h2>This is the science section of the website</h2>
+  <h3>Basics about energy, kenetic and protential</h3>
+  <p></p>
+  <p></p>
+  <p id ="p1">	Welcome to the science section about energy. hover above the button, it has many kinds of energy stuff </p>	
+  <div class="button2">
+  <button class="button1">Energy stuff</button>
+  <div class="web">
+  <a href="https://www.mansfieldct.org/Schools/MMS/staff/hand/energykinds.htm">Kinds of energy</a>
+  <a href="https://en.wikipedia.org/wiki/Efficient_energy_use">Uses of energy</a>
+  <a href="https://en.wikipedia.org/wiki/Energy_development">Energy development</a>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

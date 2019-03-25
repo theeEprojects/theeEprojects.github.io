@@ -1,0 +1,18 @@
+﻿#h1{
+	color:black;
+	text-size:300px
+	text-align: center ;
+}
+#dir1{
+
+	border: 10px double;
+	margin:auto;
+}
+#body{
+	border: 100px;
+	border-radius: 10px 50px;
+	margin: auto;
+}
+#dir2{
+	border:10px black solid;
+}

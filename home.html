@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<DOCTYPE html>
+<html>
+<head>
+<style>
+#button1{
+	border:none;
+	background-image:url(water.jpg);
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button id="button1"onclick="myFunction()">If you want to enter your name</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var person = prompt("Please enter your name", "Name...");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Welcome " + person + " to this website";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+#h1{
+	border-style: outset;
+	text-transform:uppercase;
+	height: 100;
+	width: 40%;
+	color: #cebdbd;
+	background:linear-gradient(45deg,black,white);
+	transition-duration: 0.1s;
+	background-size: 100%;
+	transition-property: width,height;
+	transition-duration: 0.5s;
+}
+#h1:hover{
+	width: 1000px;
+	height: 100px;
+	background-color: gray;
+}
+#turtle:hover{
+	opacity: 0.5;
+  	filter: alpha(opacity=100);
+}
+#turtle{
+	border-style: inset;
+	border-width: thick;
+	border-color: black;
+}
+#button{
+	padding:10px;
+	color:white;
+	background-color:black; 
+	transition-duration: 0.1s;
+}
+#button:hover{
+	transform: rotateX(360deg) scale(2);
+}
+@media only screen and (max-width: 768px) {
+	#h1{
+		font-size:100px;
+		background-color: gray; 
+	}
+}

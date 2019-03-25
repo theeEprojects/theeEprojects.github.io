@@ -1,0 +1,42 @@
+
+h1{color:red;
+	font-size: 100px;
+	text-align: center;
+}
+h2{
+	text-align:center;
+}
+body{
+	background-color: lightblue;
+	border: 100px blue;
+}
+#header2 {
+	margin: 100px 10%;
+	font-size: 100px;
+	font-family:Arial;
+}
+.header1{
+	font-size:200px;
+}
+#turtle{
+	margin: auto;
+	display:block;
+	width:80%;
+	height:80%;
+	border-radius:20px;
+	text-align:center;
+
+}
+#par{
+	text-align:center;
+	padding-top: 100px;
+}
+#div1{
+	background: url('dog.jpg');
+	background-size: 100%;
+	border: 10px double green;
+}
+#button{
+	text-align:center
+	padding-top: 100px;
+}
